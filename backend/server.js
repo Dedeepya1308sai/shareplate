@@ -4,7 +4,7 @@ const app = require("./src/app");
 const store = require("./src/lib/store");
 
 const PORT = Number(process.env.PORT) || 4000;
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 
 store.getState();
 
