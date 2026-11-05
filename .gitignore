@@ -1,0 +1,14 @@
+node_modules/
+.env
+
+# Runtime database and uploads (seed proof images are kept)
+backend/data/db.json
+backend/data/*.tmp
+backend/data/db.json.corrupt-*
+backend/uploads/*
+!backend/uploads/seed-proof-handover.jpg
+!backend/uploads/seed-proof-handover-2.jpg
+
+.DS_Store
+Thumbs.db
+*.log
